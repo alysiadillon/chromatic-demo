@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
+    "test-storybook": "test-storybook",
     "chromatic": "npx chromatic --project-token=29275b861d9f --exit-zero-on-changes"
   },
   "dependencies": {
@@ -22,8 +23,10 @@
     "@storybook/addon-interactions": "^6.5.5",
     "@storybook/addon-links": "^6.5.5",
     "@storybook/builder-webpack5": "^6.5.5",
+    "@storybook/jest": "^0.0.10",
     "@storybook/manager-webpack5": "^6.5.5",
-    "@storybook/testing-library": "0.0.11",
+    "@storybook/test-runner": "^0.1.1",
+    "@storybook/testing-library": "^0.0.11",
     "@storybook/vue": "^6.5.5",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
@@ -32,6 +35,7 @@
     "chromatic": "^6.5.4",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "jest": "^27.5.1",
     "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.14"
   },
