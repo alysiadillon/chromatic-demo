@@ -1,5 +1,6 @@
 <template>
     <Page/>
+    <!-- comment to run build -->
 </template>
 
 <script>
