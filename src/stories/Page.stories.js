@@ -20,6 +20,7 @@ export const LoggedOut = Template.bind({});
 
 // More on interaction testing: https://storybook.js.org/docs/vue/writing-tests/interaction-testing
 export const LoggedIn = Template.bind({});
+
 LoggedIn.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement);
   await userEvent.click(canvas.getByText('Log in'));
