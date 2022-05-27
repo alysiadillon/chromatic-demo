@@ -1,9 +1,9 @@
 <template>
-  <button type="button" :class="classes" @click="onClick" :style="style">{{ label }}</button>
+  <button type="button" :class="classes" @click="onClick" :style="style" :role="label">{{ label }}woooooof</button>
 </template>
 
 <script>
-import './button.css';
+import '../styles/button.css';
 
 export default {
   name: 'my-button',
