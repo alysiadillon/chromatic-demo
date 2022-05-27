@@ -11,5 +11,8 @@ module.exports = {
   "framework": "@storybook/vue",
   "core": {
     "builder": "@storybook/builder-webpack5"
+  },
+  "features": {
+    "interactionsDebugger": "true"
   }
 }
